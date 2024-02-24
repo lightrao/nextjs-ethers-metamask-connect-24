@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div>
-          <h1>Please choosing connector ways!</h1>
+          <h1>Go to connecting page!</h1>
           <br />
           <p>
             <Link href="/ehters_connect">ehters_connect</Link>{" "}
