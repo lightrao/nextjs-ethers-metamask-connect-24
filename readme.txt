@@ -51,7 +51,7 @@ yarn remove ethers
 ```
 
 6.edit pages to realize project
-I have deployed and approved SimpleStorage contract on sepolia for testing
+I have deployed and approved SimpleStorage contract on sepolia for testing.
 
 
 

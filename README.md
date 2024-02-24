@@ -1,40 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# nextjs-ethers-metamask-connect-24
 
-## Getting Started
+This is a minimalistic project to show us how we can connect to metamask using ethersjs in nextjs / react.
 
-First, run the development server:
+## Requirements
+
+- git
+- Nodejs & npm
+- Yarn
+- Metamask
+- vscode
+
+### Install git:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+sudo apt install git-all
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install nodejs & npm:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install node
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Install yarn:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+ npm install --global yarn
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Install vscode:
 
-## Learn More
+download and install the .deb package from the official Microsoft website, then run:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+sudo apt install ./<file>.deb
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Creat next.js app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+ yarn create next-app nextjs-ethers-metamask-connect-24
+```
 
-## Deploy on Vercel
+## Run next.js app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+yarn dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ctrl + c stop server.
+
+## Install ethers.js
+
+```bash
+yarn add ethers@^5.7.2
+```
+
+or uninstall
+
+```bash
+yarn remove ethers
+```
+
+## Edit pages to realize project
+
+I have deployed and approved SimpleStorage contract on sepolia for testing.
